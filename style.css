@@ -18,3 +18,11 @@ h1 {
 	height: 100vh;
 	flex-direction: column;
 }
+.link {
+	opacity: 0.8;
+}
+.link:hover {
+	opacity: 0;
+	font-weight: lighter;
+	color: green;
+}
