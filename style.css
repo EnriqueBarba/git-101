@@ -6,6 +6,9 @@ body {
 	height: 80px;
 	widows: 80px;
 }
+h1 {
+	font-weight: 100;
+}
 #container {
 	display: flex;
 	align-items: center;
