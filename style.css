@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: Helvetica;
+	background-color: #D23333;  
 }
 #logo {
 	height: 80px;
@@ -8,6 +9,7 @@ body {
 }
 h1 {
 	font-weight: 100;
+	color: white;
 }
 #container {
 	display: flex;
