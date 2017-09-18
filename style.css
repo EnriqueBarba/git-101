@@ -1,7 +1,6 @@
-body {
-	margin: 0;
+body div {
 	font-family: Helvetica;
-	background-color: orange;  
+	background-color: #D23333;  
 }
 #logo {
 	height: 80px;
@@ -9,7 +8,10 @@ body {
 }
 h1 {
 	font-weight: 100;
-	color: white;
+}
+.about-us {
+	opacity: 0.4;
+	color: yellow;
 }
 #container {
 	display: flex;
@@ -19,10 +21,11 @@ h1 {
 	flex-direction: column;
 }
 .link {
-	opacity: 0.8;
+	opacity: 0.4;
+	color: yellow;
 }
 .link:hover {
-	opacity: 0;
+	opacity: 0.8;
 	font-weight: lighter;
-	color: green;
+	color: #318877;
 }
